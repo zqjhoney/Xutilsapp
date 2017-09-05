@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f00</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000</color>
+    <color name="layout_select_bg">#fff</color>
+
+    <color name="ce_text_color">#90868a96</color>
+    <color name="ce_layout_bg">#1e1e2a</color>
+
+    <color name="frag_bg">#868a96</color>
+</resources>

@@ -1,7 +1,9 @@
 package com.bwie.xutilsapp;
 
 import android.app.Application;
+import android.content.Context;
 
+import com.mob.MobSDK;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -13,14 +15,16 @@ import org.xutils.x;
  */
 
 public class App extends Application {
+    public static Context mcontext;
     @Override
     public void onCreate() {
         super.onCreate();
+        mcontext=this;
        initxutil();
         initImage();
+        MobSDK.init(this, Api.APPKEY,Api.SETRET);
 
     }
-
     private void initImage() {
 
         DisplayImageOptions option=new DisplayImageOptions.Builder()

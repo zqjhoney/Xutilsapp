@@ -7,9 +7,15 @@
     android:layout_height="match_parent"
     tools:context="com.bwie.xutilsapp.MainActivity">
 
-   <view.xlistview.XListView
-       android:id="@+id/xlv"
+
+   <include layout="@layout/head" android:id="@+id/head"></include>
+   <com.bwie.xutilsapp.view.Horizontal_tabhost
+       android:layout_below="@+id/head"
+       android:id="@+id/horizontal_tabhost"
        android:layout_width="match_parent"
-       android:layout_height="match_parent"></view.xlistview.XListView>
+       android:layout_height="wrap_content">
+   </com.bwie.xutilsapp.view.Horizontal_tabhost>
+
+
 
 </RelativeLayout>

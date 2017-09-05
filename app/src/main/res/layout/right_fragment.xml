@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/frag_bg"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rhead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/ce_layout_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ＜ " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="设置" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/r_count"
+
+        android:background="@color/ce_layout_bg"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/rhead"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="我的关注"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                android:text="7.67MB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e8e8e8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="字体大小"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                android:text="中"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e8e8e8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="列表显示摘要"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                android:text="＞"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e8e8e8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:id="@+id/noWIFI"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="非WIFI网络流量"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                android:text="极省流量(不下载图)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e8e8e8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="非WIFI网络播放提醒"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                android:text="提醒一次"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e8e8e8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="推送通知"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Switch
+                android:layout_alignParentRight="true"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/r_end"
+        android:background="@color/ce_layout_bg"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/show"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <RelativeLayout
+            android:id="@+id/offline_load"
+            android:layout_weight="1"
+            android:paddingLeft="17dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="离线下载"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/t1"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:textSize="14dp"
+                android:text="＞"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:background="#e8e8e8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:paddingLeft="17dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:text="检查版本"
+                android:textSize="14dp"
+                android:textColor="@color/ce_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:textSize="14dp"
+                android:text="6.3.2  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

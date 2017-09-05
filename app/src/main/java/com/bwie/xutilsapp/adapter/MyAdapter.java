@@ -7,7 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bwie.xutilsapp.Bean;
+import com.bwie.xutilsapp.bean.Bean;
 import com.bwie.xutilsapp.R;
 import com.nostra13.universalimageloader.core.ImageLoader;
 

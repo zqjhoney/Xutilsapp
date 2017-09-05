@@ -1,4 +1,4 @@
-package com.bwie.xutilsapp;
+package com.bwie.xutilsapp.bean;
 
 import java.util.List;
 

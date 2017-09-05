@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.xutilsapp.OffLine_loadActivity">
+
+    <include layout="@layout/offline_load_head" android:id="@+id/head"/>
+    <TextView
+        android:id="@+id/off_title"
+        android:text="我的频道"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_below="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/off_title"
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</RelativeLayout>
